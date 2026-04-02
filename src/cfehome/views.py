@@ -10,6 +10,7 @@ from visits.models import PageVisit
 
 LOGIN_URL = settings.LOGIN_URL
 
+
 this_dir = pathlib.Path(__file__).resolve().parent
 
 def home_view(request, *args, **kwargs):
